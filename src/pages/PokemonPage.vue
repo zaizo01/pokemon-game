@@ -1,0 +1,17 @@
+<template>
+  <h1>¿Quién es el pokemon?</h1>
+  <PokemonPicture />
+  <PokemonOptions />
+</template>
+
+<script>
+import PokemonPicture from "@/components/PokemonPicture.vue";
+import PokemonOptions from "@/components/PokemonOptions.vue";
+export default {
+  name: "PokemonPage",
+  components: {
+    PokemonPicture,
+    PokemonOptions,
+  },
+};
+</script>
